@@ -34,6 +34,26 @@ public class Ejercicio16 {
 			}
 		}
 	}
+	
+	public static float media(int aNotas[][]) {
+		int suma=0;
+		float media;
+		for(int i = 0; i < aNotas.length;i++) {
+			for(int j = 0; j< aNotas[i].length;j++) {
+				suma=suma+aNotas[i][j];
+			}
+		}
+		media= (suma/(aNotas[0].length*aNotas.length));
+		return media;
+	}
+	
+	public static void mejorAlumno(int aNotas [][], float media) {
+		for(int i = 0;i<aNotas.length;i++) {
+			for(int j = 0;i<aNotas[i].length;i++) {
+				
+			}
+		}
+	}
 
 	public static void menu(int aNotas[][]) {
 		Scanner entrada = new Scanner(System.in);
@@ -80,7 +100,7 @@ public class Ejercicio16 {
 
 
 	public static void main(String[] args) {
-		int [][]aNotas = new int [ALUM][ASIG];
+		int [][]aNotas = new int [ASIG][ALUM];
 
 		menu(aNotas);
 
