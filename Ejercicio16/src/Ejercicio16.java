@@ -60,7 +60,7 @@ public class Ejercicio16 {
 				peorAlumno = i;
 			}
 		}
-		System.out.print("El alumno con mas suspensos es: " + vAlumnos[peorAlumno] + "y tiene " + suspensos + " suspensos");
+		System.out.print("El alumno con mas suspensos es: " + vAlumnos[peorAlumno] + " y tiene " + suspensos + " suspensos");
 	}
 	
 	public static void asigDificil(int aNotas[][], String[] vAsignaturas) {
